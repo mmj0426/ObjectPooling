@@ -1,0 +1,11 @@
+Engine/GlobalShaderCache-GLSL_ES3_1_ANDROID.bin
+ObjectPool/AssetRegistry.bin
+ObjectPool/Content/ShaderArchive-Global-GLSL_ES3_1_ANDROID.ushaderbytecode
+ObjectPool/Content/ShaderArchive-ObjectPool-GLSL_ES3_1_ANDROID.ushaderbytecode
+ObjectPool/Content/MobileStarterContent/Maps/Minimal_Default.uexp
+ObjectPool/Content/MobileStarterContent/Maps/Minimal_Default.umap
+ObjectPool/Content/MobileStarterContent/Maps/Minimal_Default_BuiltData.uasset
+ObjectPool/Content/MobileStarterContent/Maps/Minimal_Default_BuiltData.ubulk
+ObjectPool/Content/MobileStarterContent/Maps/Minimal_Default_BuiltData.uexp
+Manifest_NonUFSFiles_Android.txt
+Manifest_UFSFiles_Android.txt

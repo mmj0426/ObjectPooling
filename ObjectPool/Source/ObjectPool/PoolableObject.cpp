@@ -13,7 +13,7 @@ APoolableObject::APoolableObject()
 
 	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Visual"));
 	static ConstructorHelpers::FObjectFinder<UStaticMesh>
-		SphereMesh(TEXT("/Game/StarterContent/Shapes/Shape_Sphere.Shape_Sphere"));
+		SphereMesh(TEXT("/Game/MobileStarterContent/Shapes/Shape_Sphere.Shape_Sphere"));
 	if (SphereMesh.Succeeded())
 	{
 		StaticMesh->SetStaticMesh(SphereMesh.Object);
@@ -35,7 +35,7 @@ void APoolableObject::BeginPlay()
 
 void APoolableObject::Tick(float DeltaTime)
 {
-	SetActorLocation(GetActorLocation() * Velocity * Direction * DeltaTime);
+	//SetActorLocation(GetActorLocation() * Velocity * Direction * DeltaTime);
 	Super::Tick(DeltaTime);
 
 }
@@ -43,6 +43,8 @@ void APoolableObject::Tick(float DeltaTime)
 void APoolableObject::SetLifeSpan(float newLifeSpan)
 {
 	Lifespan = newLifeSpan;
+	//UE_LOG(LogTemp, Warning, TEXT("Lifespan : %s"), Lifespan);
+	GetWorldTimerManager().SetTimer(LifespanTimer, this, &APoolableObject::Deactivate, Lifespan, false);
 }
 
 void APoolableObject::SetActive(bool newActive)

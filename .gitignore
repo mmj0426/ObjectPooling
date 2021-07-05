@@ -72,3 +72,26 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+ObjectPool/Binaries/Win64/UE4Editor-ObjectPool-0001.pdb
+ObjectPool/Binaries/Win64/UE4Editor-ObjectPool-0003.pdb
+ObjectPool/Binaries/Win64/UE4Editor-ObjectPool-0004.pdb
+ObjectPool/Binaries/Win64/UE4Editor-ObjectPool-0005.pdb
+ObjectPool/Binaries/Win64/UE4Editor-ObjectPool-0006.pdb
+ObjectPool/Binaries/Win64/UE4Editor-ObjectPool-0007.pdb
+ObjectPool/Binaries/Win64/UE4Editor-ObjectPool-0008.pdb
+ObjectPool/Binaries/Win64/UE4Editor-ObjectPool-0009.pdb
+ObjectPool/Binaries/Win64/UE4Editor-ObjectPool-0010.pdb
+ObjectPool/Binaries/Win64/UE4Editor-ObjectPool-0011.pdb
+ObjectPool/Binaries/Win64/UE4Editor-ObjectPool-0012.pdb
+ObjectPool/Binaries/Win64/UE4Editor-ObjectPool-0013.pdb
+ObjectPool/Binaries/Win64/UE4Editor-ObjectPool-0015.pdb
+ObjectPool/Binaries/Win64/UE4Editor-ObjectPool-0016.pdb
+ObjectPool/Binaries/Win64/UE4Editor-ObjectPool-0017.pdb
+ObjectPool/Binaries/Win64/UE4Editor-ObjectPool-0018.pdb
+ObjectPool/Binaries/Win64/UE4Editor-ObjectPool-0020.pdb
+ObjectPool/Binaries/Win64/UE4Editor-ObjectPool-0021.pdb
+ObjectPool/Binaries/Win64/UE4Editor-ObjectPool-1781.pdb
+ObjectPool/Binaries/Win64/UE4Editor-ObjectPool-6277.pdb
+ObjectPool/Binaries/Win64/UE4Editor-ObjectPool-6569.pdb
+ObjectPool/Binaries/Win64/UE4Editor-ObjectPool-8091.pdb
+ObjectPool/Binaries/Win64/UE4Editor-ObjectPool-8946.pdb

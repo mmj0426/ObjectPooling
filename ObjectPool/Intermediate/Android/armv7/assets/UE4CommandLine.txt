@@ -1,0 +1,1 @@
+../../../ObjectPool/ObjectPool.uproject  /Game/MobileStarterContent/Maps/Minimal_Default -Messaging -SessionId=7A01BEF7479F1FB2BF6F90B2CB7FD964 -SessionOwner="ManDu" -SessionName="Launch On Device" -iterative
