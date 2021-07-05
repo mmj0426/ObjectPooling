@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ObjectPool",
+			"Path": "E:\\ObjectPool\\ObjectPool\\Source\\ObjectPool.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ObjectPoolEditor",
+			"Path": "E:\\ObjectPool\\ObjectPool\\Source\\ObjectPoolEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

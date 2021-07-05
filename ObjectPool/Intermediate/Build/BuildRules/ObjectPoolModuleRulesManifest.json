@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"E:\\ObjectPool\\ObjectPool\\Source\\ObjectPool\\ObjectPool.Build.cs",
+		"E:\\ObjectPool\\ObjectPool\\Source\\ObjectPool.Target.cs",
+		"E:\\ObjectPool\\ObjectPool\\Source\\ObjectPoolEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.4"
+}

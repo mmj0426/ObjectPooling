@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ObjectPool.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{253B05D4-20C5-4FBD-84D3-606A2084634E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ObjectPool.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ObjectPoolEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{D226D826-63D1-4133-9144-0FD5B51E4A1F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ObjectPool">
+      <UniqueIdentifier>{6C14D748-F2EB-4508-85B7-FB4E17FB23F4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ObjectPool\ObjectPool.Build.cs">
+      <Filter>Source\ObjectPool</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ObjectPool\ObjectPool.cpp">
+      <Filter>Source\ObjectPool</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObjectPool\ObjectPool.h">
+      <Filter>Source\ObjectPool</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObjectPool\ObjectPoolGameModeBase.cpp">
+      <Filter>Source\ObjectPool</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObjectPool\ObjectPoolGameModeBase.h">
+      <Filter>Source\ObjectPool</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObjectPool\PoolableObject.cpp">
+      <Filter>Source\ObjectPool</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObjectPool\PoolableObject.h">
+      <Filter>Source\ObjectPool</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
