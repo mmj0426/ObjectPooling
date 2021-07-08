@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ObjectPool.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{A74D9426-E9A1-452E-A83E-180A73851807}</UniqueIdentifier>
+      <UniqueIdentifier>{895E9F4E-3351-46D0-AF14-D948912A332B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ObjectPool.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{0AA21C3A-5CB3-41DA-B6BF-91D156AE9FB5}</UniqueIdentifier>
+      <UniqueIdentifier>{8945D4B7-0FE8-4FDD-A52C-2FD2DE0B0AD9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,9 +23,18 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\ObjectPool">
-      <UniqueIdentifier>{81200553-C415-4661-AA5F-AEC690DBF2D4}</UniqueIdentifier>
+      <UniqueIdentifier>{DA581CA7-A2BD-41EE-A2CA-8E779404C545}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\ObjectPool\GM_ObjectPool.cpp">
+      <Filter>Source\ObjectPool</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObjectPool\GM_ObjectPool.h">
+      <Filter>Source\ObjectPool</Filter>
+    </ClInclude>
     <None Include="..\..\Source\ObjectPool\ObjectPool.Build.cs">
       <Filter>Source\ObjectPool</Filter>
     </None>
@@ -45,6 +54,18 @@
       <Filter>Source\ObjectPool</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\ObjectPool\ObjectPoolGameModeBase.h">
+      <Filter>Source\ObjectPool</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObjectPool\PC_PlayerCharacter.cpp">
+      <Filter>Source\ObjectPool</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObjectPool\PC_PlayerCharacter.h">
+      <Filter>Source\ObjectPool</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ObjectPool\PlayerCharacter.cpp">
+      <Filter>Source\ObjectPool</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObjectPool\PlayerCharacter.h">
       <Filter>Source\ObjectPool</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\ObjectPool\PoolableObject.cpp">
