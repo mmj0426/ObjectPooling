@@ -36,7 +36,7 @@ public: \
 
 #define ObjectPool_Source_ObjectPool_PC_PlayerCharacter_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API APC_PlayerCharacter(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API APC_PlayerCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APC_PlayerCharacter) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, APC_PlayerCharacter); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APC_PlayerCharacter); \
@@ -48,8 +48,6 @@ public:
 
 
 #define ObjectPool_Source_ObjectPool_PC_PlayerCharacter_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API APC_PlayerCharacter(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API APC_PlayerCharacter(APC_PlayerCharacter&&); \
@@ -57,7 +55,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, APC_PlayerCharacter); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APC_PlayerCharacter); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APC_PlayerCharacter)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APC_PlayerCharacter)
 
 
 #define ObjectPool_Source_ObjectPool_PC_PlayerCharacter_h_15_PRIVATE_PROPERTY_OFFSET

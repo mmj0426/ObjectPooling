@@ -1441,4 +1441,5 @@ E:/ObjectPool/ObjectPool/Intermediate/Build/Android/UE4/Development/ObjectPool/P
   C:\Program\ Files\Epic\ Games\UE_4.25\Engine\Intermediate\Build\Android\UE4\Inc\Engine\RootMotionSource.generated.h \
   C:\Program\ Files\Epic\ Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject\ScriptMacros.h \
   C:\Program\ Files\Epic\ Games\UE_4.25\Engine\Intermediate\Build\Android\UE4\Inc\Engine\Character.generated.h \
-  E:\ObjectPool\ObjectPool\Intermediate\Build\Android\UE4\Inc\ObjectPool\PlayerCharacter.generated.h
+  E:\ObjectPool\ObjectPool\Intermediate\Build\Android\UE4\Inc\ObjectPool\PlayerCharacter.generated.h \
+  C:\Program\ Files\Epic\ Games\UE_4.25\Engine\Source\Runtime\Core\Public\Math\UnrealMathUtility.h

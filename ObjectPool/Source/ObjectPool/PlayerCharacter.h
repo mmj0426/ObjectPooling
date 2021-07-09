@@ -32,4 +32,12 @@ public:
 	 
 	FVector FirstLocation;
 	FVector CurrentLocation;
+	FVector DesiredLocation;
+
+	FVector MoveDirection;
+
+
+	float DistanceFromBall;
+	float DistanceFromTouch;
+
 };

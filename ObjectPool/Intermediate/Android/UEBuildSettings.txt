@@ -65,6 +65,6 @@ bBundleDensitySplit=True
 bFullScreen=True
 bForceLDLinker=False
 bForceSmallOBBFiles=False
-MaxAspectRatio=2.400000
+MaxAspectRatio=2.100000
 Arch=-armv7
 GPUArch=

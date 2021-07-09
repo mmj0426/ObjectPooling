@@ -13,3 +13,5 @@ C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFra
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
 E:\ObjectPool\ObjectPool\Intermediate\Build\Win64\UE4Editor\Inc\ObjectPool\PlayerCharacter.generated.h
+E:\ObjectPool\ObjectPool\Source\ObjectPool\PC_PlayerCharacter.h
+E:\ObjectPool\ObjectPool\Intermediate\Build\Win64\UE4Editor\Inc\ObjectPool\PC_PlayerCharacter.generated.h

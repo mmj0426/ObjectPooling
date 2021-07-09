@@ -288,7 +288,7 @@
 148-->Z:\app\src\main\AndroidManifest.xml:44:5-73
 149            android:name="android.max_aspect"
 149-->Z:\app\src\main\AndroidManifest.xml:44:16-49
-150            android:value="2.40" />
+150            android:value="2.10" />
 150-->Z:\app\src\main\AndroidManifest.xml:44:50-70
 151
 152        <activity

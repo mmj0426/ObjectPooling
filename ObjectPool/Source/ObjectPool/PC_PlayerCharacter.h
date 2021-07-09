@@ -13,5 +13,9 @@ UCLASS()
 class OBJECTPOOL_API APC_PlayerCharacter : public APlayerController
 {
 	GENERATED_BODY()
+
+public : 
+	APC_PlayerCharacter();
+	virtual void BeginPlay() override;
 	
 };

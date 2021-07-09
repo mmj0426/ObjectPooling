@@ -3,6 +3,7 @@
 
 #include "GM_ObjectPool.h"
 #include "PlayerCharacter.h"
+#include "PC_PlayerCharacter.h"
 
 AGM_ObjectPool::AGM_ObjectPool()
 {
@@ -10,5 +11,7 @@ AGM_ObjectPool::AGM_ObjectPool()
 	PlayerCharacter(TEXT("/Game/Blueprints/BP_PlayerCharacter.BP_PlayerCharacter_C"));
 
 	DefaultPawnClass = PlayerCharacter.Class;
+
+	PlayerControllerClass = APC_PlayerCharacter::StaticClass();
 
 }
